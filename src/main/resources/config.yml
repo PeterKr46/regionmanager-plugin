@@ -1,0 +1,4 @@
+# Should you prefer chat messages over subtitle for messages, set this to false.
+use-subtitle-notifications: true
+# Backup delay in seconds. Standard (7200s) is 2h.
+backup-delay: 7200

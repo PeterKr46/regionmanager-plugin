@@ -1,0 +1,12 @@
+version: ${project.version}
+com.gmail.pkr4mer.regionmanager.flag.handlers.combat:
+    invincible:
+        type: BooleanFlag
+        description: Makes all Players inside the region invincible to any kind of damage
+        no-region-default: false
+        no-flag-default: false
+        no-member-default: false
+        member-default:
+    pvp:
+        type: BooleanFlag
+        description: Prevents all Players

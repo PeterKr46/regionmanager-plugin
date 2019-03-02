@@ -1,0 +1,11 @@
+name: RegionManager
+version: "${project.version}"
+main: eu.saltyscout.regionmanager.RegionManagerPlugin
+author: Peter Kramer
+depend: [WorldEdit, BooleRegions]
+api-version: 1.13
+commands:
+    region:
+        usage-old: /region {create|flag {unset}|info|list|addmember|rmmember|remove|select|priority} {name} [flag] [value]
+        usage: §e/region help §2for more information
+        permission: regionmanager.command
